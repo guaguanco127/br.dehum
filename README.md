@@ -12,13 +12,16 @@ By Brian Riordan
 Repository for br.dehum.1.0, with all related files, can be found here: [https://github.com/guaguanco127/br.dehum](https://github.com/guaguanco127/br.dehum)  
 Additional programs can be found here: [https://github.com/guaguanco127/br.max](https://github.com/guaguanco127/br.max)
 
-These files were created with Max 9.
+These files were created with Max 9, or RNBO.
 
 ## Links
 
 [About](#About)  
 [State outlet](#State)  
-[Max/MSP Abstraction](https://github.com/guaguanco127/br.dehum/tree/main/MaxMSP%20Abstraction) To use as an abstraction within Max/MSP
+[Max/MSP Abstraction](https://github.com/guaguanco127/br.dehum/tree/main/MaxMSP%20Abstraction) To use as an abstraction within Max/MSP  
+[Max/MSP RNBO for External or VST](https://github.com/guaguanco127/br.dehum/tree/main/RNBO%20Patchers%20for%20External%20or%20VST) To build your own Max external or VST/AU plugin, or to reuse the code in your own RNBO patches (needs RNBO)  
+
+You can use it as an abstraction within Max/MSP. With RNBO you can also build your own Max external or plugin from the included RNBO patch.
 
 ## <a name="About"></a>About
 
