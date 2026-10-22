@@ -258,8 +258,8 @@
       "rect": [
        100.0,
        100.0,
-       1200.0,
-       800.0
+       1311.0,
+       900.0
       ],
       "boxes": [
        {
@@ -274,9 +274,9 @@
           ""
          ],
          "patching_rect": [
-          50,
           20.0,
-          200.0,
+          20.0,
+          155.0,
           22.0
          ],
          "text": "in 1 @comment Audio L"
@@ -294,9 +294,9 @@
           ""
          ],
          "patching_rect": [
-          265,
+          190.0,
           20.0,
-          200.0,
+          155.0,
           22.0
          ],
          "text": "in 2 @comment Audio R"
@@ -314,9 +314,9 @@
           ""
          ],
          "patching_rect": [
-          480,
+          360.0,
           20.0,
-          200.0,
+          247.0,
           22.0
          ],
          "text": "in 3 @comment On/off 0/1 @default 1"
@@ -327,6 +327,7 @@
          "fontname": "Arial",
          "fontsize": 12.0,
          "id": "obj-in4",
+         "linecount": 2,
          "maxclass": "newobj",
          "numinlets": 0,
          "numoutlets": 1,
@@ -334,10 +335,10 @@
           ""
          ],
          "patching_rect": [
-          695,
+          622.0,
           20.0,
           200.0,
-          22.0
+          36.0
          ],
          "text": "in 4 @comment Grid 0 = 50 Hz 1 = 60 Hz @default 1"
         }
@@ -347,6 +348,7 @@
          "fontname": "Arial",
          "fontsize": 12.0,
          "id": "obj-in5",
+         "linecount": 2,
          "maxclass": "newobj",
          "numinlets": 0,
          "numoutlets": 1,
@@ -354,10 +356,10 @@
           ""
          ],
          "patching_rect": [
-          910,
+          837.0,
           20.0,
           200.0,
-          22.0
+          36.0
          ],
          "text": "in 5 @comment Fine Hz -3 to 3 @default 0"
         }
@@ -367,6 +369,7 @@
          "fontname": "Arial",
          "fontsize": 12.0,
          "id": "obj-in6",
+         "linecount": 2,
          "maxclass": "newobj",
          "numinlets": 0,
          "numoutlets": 1,
@@ -374,10 +377,10 @@
           ""
          ],
          "patching_rect": [
-          50,
-          50.0,
+          598.3333333333334,
+          132.0,
           200.0,
-          22.0
+          36.0
          ],
          "text": "in 6 @comment Harmonics 1 to 24 @default 4"
         }
@@ -387,6 +390,7 @@
          "fontname": "Arial",
          "fontsize": 12.0,
          "id": "obj-in7",
+         "linecount": 2,
          "maxclass": "newobj",
          "numinlets": 0,
          "numoutlets": 1,
@@ -394,10 +398,10 @@
           ""
          ],
          "patching_rect": [
-          265,
-          50.0,
+          813.3333333333334,
+          132.0,
           200.0,
-          22.0
+          36.0
          ],
          "text": "in 7 @comment Q 5 to 200 @default 30"
         }
@@ -407,6 +411,7 @@
          "fontname": "Arial",
          "fontsize": 12.0,
          "id": "obj-in8",
+         "linecount": 2,
          "maxclass": "newobj",
          "numinlets": 0,
          "numoutlets": 1,
@@ -414,10 +419,10 @@
           ""
          ],
          "patching_rect": [
-          480,
-          50.0,
+          1028.3333333333335,
+          132.0,
           200.0,
-          22.0
+          36.0
          ],
          "text": "in 8 @comment Depth % 0 to 100 @default 100"
         }
@@ -427,6 +432,7 @@
          "fontname": "Arial",
          "fontsize": 12.0,
          "id": "obj-in9",
+         "linecount": 2,
          "maxclass": "newobj",
          "numinlets": 0,
          "numoutlets": 1,
@@ -434,10 +440,10 @@
           ""
          ],
          "patching_rect": [
-          695,
-          50.0,
+          945.3333333333334,
+          220.0,
           200.0,
-          22.0
+          36.0
          ],
          "text": "in 9 @comment Tilt % 0 to 100 @default 0"
         }
@@ -447,6 +453,7 @@
          "fontname": "Arial",
          "fontsize": 12.0,
          "id": "obj-in10",
+         "linecount": 3,
          "maxclass": "newobj",
          "numinlets": 0,
          "numoutlets": 1,
@@ -454,10 +461,10 @@
           ""
          ],
          "patching_rect": [
-          910,
-          50.0,
+          1061.0,
+          281.0,
           200.0,
-          22.0
+          49.0
          ],
          "text": "in 10 @comment Odd/even % -100 odd only to 100 even only @default 0"
         }
@@ -477,8 +484,8 @@
           ""
          ],
          "patching_rect": [
-          50.0,
-          100.0,
+          20.0,
+          355.0,
           1060.0,
           600.0
          ]
@@ -494,9 +501,9 @@
          "numoutlets": 0,
          "outlettype": [],
          "patching_rect": [
-          50.0,
-          720.0,
-          120.0,
+          20.0,
+          985.0,
+          161.0,
           22.0
          ],
          "text": "out 1 @comment Audio L"
@@ -512,9 +519,9 @@
          "numoutlets": 0,
          "outlettype": [],
          "patching_rect": [
-          1050.0,
-          720.0,
-          120.0,
+          1061.0,
+          985.0,
+          161.0,
           22.0
          ],
          "text": "out 2 @comment Audio R"
@@ -543,6 +550,12 @@
          "destination": [
           "obj-code",
           1
+         ],
+         "midpoints": [
+          199.5,
+          71.0,
+          145.16666666666669,
+          71.0
          ]
         }
        },
@@ -555,6 +568,12 @@
          "destination": [
           "obj-code",
           2
+         ],
+         "midpoints": [
+          369.5,
+          83.0,
+          260.83333333333337,
+          83.0
          ]
         }
        },
@@ -567,6 +586,12 @@
          "destination": [
           "obj-code",
           3
+         ],
+         "midpoints": [
+          631.5,
+          95.0,
+          376.5,
+          95.0
          ]
         }
        },
@@ -579,6 +604,12 @@
          "destination": [
           "obj-code",
           4
+         ],
+         "midpoints": [
+          846.5,
+          107.0,
+          492.1666666666667,
+          107.0
          ]
         }
        },
@@ -603,6 +634,12 @@
          "destination": [
           "obj-code",
           6
+         ],
+         "midpoints": [
+          822.8333333333334,
+          183.0,
+          723.5,
+          183.0
          ]
         }
        },
@@ -615,6 +652,12 @@
          "destination": [
           "obj-code",
           7
+         ],
+         "midpoints": [
+          1037.8333333333335,
+          195.0,
+          839.1666666666666,
+          195.0
          ]
         }
        },
